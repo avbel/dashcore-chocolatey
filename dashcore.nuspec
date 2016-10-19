@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>dashcore</id>
+    <version>0.12.0.58</version>
+    <title>Dash Core (Install)</title>
+    <authors>avbel</authors>
+    <projectUrl>https://github.com/dashpay/avbel/dashcore-chocolatey</projectUrl>
+    <iconUrl>https://avatars2.githubusercontent.com/u/11511719?v=3</iconUrl>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/dashpay/dash</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/dashpay/avbel/dashcore-chocolatey/issues</bugTrackerUrl>
+    <tags>dash digital-cash dashcore</tags>
+    <summary>Dash - Reinventing Cryptocurrency</summary>
+    <description>Dash (DASH) is an open sourced, privacy-centric digital currency with instant transactions.
+It allows you to keep your finances private as you make transactions without waits, similar to cash.</description>
+
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>
