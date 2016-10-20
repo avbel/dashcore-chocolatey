@@ -5,12 +5,12 @@
     <version>0.12.0.58</version>
     <title>Dash Core (Install)</title>
     <authors>avbel</authors>
-    <projectUrl>https://github.com/avbel/dashcore-chocolatey</projectUrl>
+    <projectUrl>https://github.com/dashpay/dash</projectUrl>
     <iconUrl>https://avatars2.githubusercontent.com/u/11511719?v=3</iconUrl>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/dashpay/dash</projectSourceUrl>
-    <bugTrackerUrl>https://github.com/avbel/dashcore-chocolatey/issues</bugTrackerUrl>
+    <bugTrackerUrl>https://github.com/dashpay/dash/issues</bugTrackerUrl>
     <tags>dash digital-cash dashcore admin</tags>
     <summary>Dash - Reinventing Cryptocurrency</summary>
     <description>Dash (DASH) is an open sourced, privacy-centric digital currency with instant transactions.
