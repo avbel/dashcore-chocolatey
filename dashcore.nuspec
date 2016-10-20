@@ -11,11 +11,10 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/dashpay/dash</projectSourceUrl>
     <bugTrackerUrl>https://github.com/dashpay/avbel/dashcore-chocolatey/issues</bugTrackerUrl>
-    <tags>dash digital-cash dashcore</tags>
+    <tags>dash digital-cash dashcore admin</tags>
     <summary>Dash - Reinventing Cryptocurrency</summary>
     <description>Dash (DASH) is an open sourced, privacy-centric digital currency with instant transactions.
 It allows you to keep your finances private as you make transactions without waits, similar to cash.</description>
-
   </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->
