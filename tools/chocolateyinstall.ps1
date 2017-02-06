@@ -1,12 +1,12 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-$version    = '0.12.0.58'
+$version    = '0.12.1.0'
 $packageName= 'dashcore'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url        = "https://github.com/dashpay/dash/releases/download/v$($version)/dash-$($version)-win32-setup.exe"
 $url64      = "https://github.com/dashpay/dash/releases/download/v$($version)/dash-$($version)-win64-setup.exe"
-$checksum   = '8d5985275b78e09d527a306fcecca86390b7e1c9777ab57e8f89adfbce528464'
-$checksum64 = '30571c0e8bb7e9a700e1ed42542f7521253d9131519dca3cdc4252b7273be0f3'
+$checksum   = '2980b0ec4dfef414ef58dc0d8d6eb0bd01c182bfef88692d1dff83d6926c183f'
+$checksum64 = 'f8988703f55a0a5e9f6286b0f25fdf51b792a7f08d6aaafe64e26ec0c4747dbe'
 
 $packageArgs = @{
   packageName   = $packageName
